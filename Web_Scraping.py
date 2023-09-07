@@ -7,7 +7,7 @@ Prices = []
 Description = []
 Reviews = []
 
-##BeautifulSoup is a Python package for parsing HTML & XML documents. It will create a parse tree foor parsed pages
+##BeautifulSoup is a Python package for parsing HTML & XML documents. It will create a parse tree for parsed pages
 ##Requests library is one of the integral part of Python for making HTTP requests to a specified URL
 for i in range(2,3):
   url="https://www.flipkart.com/search?q=mobiles+under+50000&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page="+str(i)
